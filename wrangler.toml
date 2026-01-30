@@ -1,0 +1,10 @@
+name = "expense-tracker"
+compatibility_date = "2024-01-01"
+pages_build_output_dir = ".vercel/output/static"
+
+# Environment variables sẽ được set qua Cloudflare Dashboard
+# Không commit sensitive data vào file này
+
+[env.production]
+# Production environment
+# Set NEXT_PUBLIC_SUPABASE_URL và NEXT_PUBLIC_SUPABASE_ANON_KEY qua Dashboard
